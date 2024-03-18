@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{898ADB5D-9E60-45CD-9586-7CC5D6B01294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{15175B6D-A16D-4ED6-9973-4B08F9E6A4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "src\Application\App\App.csproj", "{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared Layer", "Shared Layer", "{81B23F34-EC7C-4DA8-8D1B-0D0B65A1C8A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constant", "src\Shared\Constant\Constant.csproj", "{095F434B-4EAB-4247-8675-71F20150940E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A358D07-BED9-40B9-AF11-9E5A3B0B0EF4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095F434B-4EAB-4247-8675-71F20150940E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095F434B-4EAB-4247-8675-71F20150940E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095F434B-4EAB-4247-8675-71F20150940E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095F434B-4EAB-4247-8675-71F20150940E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15175B6D-A16D-4ED6-9973-4B08F9E6A4F3} = {898ADB5D-9E60-45CD-9586-7CC5D6B01294}
+		{ADB407FF-F333-415C-8E1E-F0CBCF40E8A6} = {15175B6D-A16D-4ED6-9973-4B08F9E6A4F3}
+		{81B23F34-EC7C-4DA8-8D1B-0D0B65A1C8A3} = {898ADB5D-9E60-45CD-9586-7CC5D6B01294}
+		{095F434B-4EAB-4247-8675-71F20150940E} = {81B23F34-EC7C-4DA8-8D1B-0D0B65A1C8A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC95875-7715-4C54-8D48-F661EC300BC4}
+	EndGlobalSection
+EndGlobal
