@@ -1,4 +1,4 @@
-﻿namespace Constant.Instructions;
+﻿namespace Constant.Infrastructure;
 
 public static class CryptionHelper
 {

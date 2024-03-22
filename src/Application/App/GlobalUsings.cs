@@ -1,1 +1,1 @@
-﻿
+﻿global using Constant.Infrastructure;

@@ -1,6 +1,4 @@
-﻿using Constant.Instructions;
-
-namespace App
+﻿namespace App
 {
     public class Program
     {
